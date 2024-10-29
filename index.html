@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary z-1 w-100 position-fixed top-0 ">
+            <div class="container-fluid Nav">
+                <div><img src="./imges/logo.png" alt="photo-nav" class="photo-nav ms-4"></div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link  home" aria-current="page" href="#">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">FEATURED</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">POPULAR</a>
+                        </li>
+                    </ul>
+                    <form class="button-nav rounded-2" role="search">
+                        <button class="btn  text-light" type="submit">Make an Appointment</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <div id="carouselExampleControlsNoTouching" class="carousel slide hero container" data-bs-touch="false">
+            <div class="carousel-inner ">
+                <div class="carousel-item active  ">
+                    <div class="d-flex row my-5 justify-content-around pt-5">
+                        <div class="col-lg-4 mt-5 col-md-5 col-10">
+                            <h1>Life Of The Wild</h1>
+                            <p class="my-5 fs-4 P">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga maxime
+                                incidunt quasi perspiciatis voluptates aspernatur quod odit molestias
+                                rerum tempore quia voluptas, sit .</p>
+                            <button class="py-2 px-5"> READ MORE <i class="fa-solid fa-arrow-right fa-xl"
+                                    style="color:#e1b491;"></i> </button>
+                        </div>
+                        <div class="col-lg-4  mt-5 col-md-5 col-10"><img src="./imges/main-banner1.jpg"
+                                class="d-bl ock w-100 img-fluid" alt="photo1"></div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="d-flex row  my-5 justify-content-around pt-5">
+                        <div class="col-lg-4 mt-5 col-md-5 col-10">
+                            <h1>Life Of The Wild</h1>
+                            <p class="my-5 fs-3 P">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga maxime
+                                incidunt quasi perspiciatis voluptates aspernatur quod odit molestias
+                                rerum tempore quia voluptas, sit .</p>
+                            <button class="py-2 px-5"> READ MORE <i class="fa-solid fa-arrow-right fa-xl"
+                                    style="color:#e1b491;"></i> </button>
+                        </div>
+                        <div class="col-lg-4  mt-5 col-md-5 col-10">
+                            <img src="./imges/main-banner2.jpg" class="d-block w-100 img-fluid" alt="photo2">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon border border-2 rounded-5 me-5" aria-hidden="true"><i
+                        class="fa-solid fa-arrow-left fa-xl" style="color: black;"></i></span>
+                <span class="visually-hidden ">Previous</span>
+            </button>
+            <button class="carousel-control-next ms-5 " type="button"
+                data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+                <span class="carousel-control-next-icon border border-2 rounded-5 ms-5" aria-hidden="true"> <i
+                        class="fa-solid fa-arrow-right fa-xl" style="color:black;"></i> </span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </header>
+    <main>
+        <section class="part1 p-5 mt-5 w-100">
+            <div class="container ms-auto text-center py-5">
+                <div class="row d-flex justify-content-around flex-wrap">
+                    <div class="col-lg-2 col-md-4 col-12 mt-2"><img src="./imges/client-image1.png" alt="img1" /></div>
+                    <div class="col-lg-2 col-md-4 col-12 mt-2"><img src="./imges/client-image2.png" alt="img1" /></div>
+                    <div class="col-lg-2 col-md-4 col-12 mt-2"><img src="./imges/client-image3.png" alt="img1" /></div>
+                    <div class="col-lg-2 col-md-4 col-12 mt-2"><img src="./imges/client-image4.png" alt="img1" /></div>
+                    <div class="col-lg-2 col-md-4 col-12 mt-2"><img src="./imges/client-image5.png" alt="img1" /></div>
+                </div>
+            </div>
+        </section>
+        <section class="part2 text-center mt-5 pt-5 w-100">
+            <div class="container">
+                <h6 class="P">SOME QUALITY ITEMS</h6>
+                <div class="d-flex justify-content-between mt-4">
+                    <div class="line mt-4"></div>
+                    <h3>Featured Books</h3>
+                    <div class="line mt-4"></div>
+                </div>
+                <div class="Div row d-flex justify-content-between my-4">
+                </div>
+                <div class="line2"></div>
+                <div class="d-flex justify-content-end mt-2 mb-5">
+                    <button class="py-2 px-5 view border-0 text-dark fs-6 pe-0"> VIEW ALL PRODUCTS <i
+                            class="fa-solid fa-arrow-right fa-2xl ms-3" style="color:#e1b491;"></i> </button>
+                </div>
+            </div>
+        </section>
+        <section class="part3 my-5 py-5 w-100">
+            <div class="container Div2">
+            </div>
+        </section>
+        <section class="part4 w-100 my-5">
+            <div class="container">
+                <h6 class="P text-center py-5">SOME QUALITY ITEMS</h6>
+                <div class="d-flex justify-content-between mt-4">
+                    <div class="line mt-4"></div>
+                    <h3 class="">PopularBooks</h3>
+                    <div class="line mt-4"></div>
+                </div>
+                <div class="navbar navbar-expand-lg ">
+                    <div class="container">
+                        <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNav">
+                            <ul class="navbar-nav row">
+                                <li class="nav-item col-lg-2 col-md-3 col-5">
+                                    <a class="nav-link active" aria-current="page" href="#">AllGenere</a>
+                                </li>
+                                <li class="nav-item col-lg-2 col-md-2 col-5">
+                                    <a class="nav-link" href="#">Business</a>
+                                </li>
+                                <li class="nav-item col-lg-2 col-md-2 col-5">
+                                    <a class="nav-link" href="#">Technology</a>
+                                </li>
+                                <li class="nav-item col-lg-2 col-md-2 col-5">
+                                    <a class="nav-link" href="#">Romantic</a>
+                                </li>
+                                <li class="nav-item col-lg-2 col-md-2 col-5">
+                                    <a class="nav-link" href="#">Adventure</a>
+                                </li>
+                                <li class="nav-item col-lg-2 col-md-2 col-5">
+                                    <a class="nav-link" href="#">Fictional</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="Div3 row d-flex justify-content-between my-4">
+                </div>
+            </div>
+        </section>
+        <section class="part5 my-5 py-5 w-100">
+            <div class="container py-5">
+                <div class=" d-flex justify-content-center row">
+                    <div class="col-lg-5 col-md 5 col-7">
+                        <h2 class="w-50 my-3">Subscribe To Our NewsLetter</h2>
+                        <div class="small-line"></div>
+                    </div>
+                    <div class="col-lg-5 col-md 5 col-7">
+                        <p class="w-75">Sed eu feugiat amet, libero ipsum enim phertra hac dolor sit amet,
+                            consectetur. Elit adipiscing enim pharetra hac.</p>
+                        <form>
+                            <div class="input-group mb-3 w-75 border border-start-0 border-end-0 border-top-0 border-dark border-2 pb-3">
+                                <input type="text" class="form-control mt-3 border-0 btn1" placeholder="Enter your Email Addresss her" aria-label="Recipient's username" aria-describedby="button-addon2">
+                                <button class="btn btn-outline-secondary mt-4 border-0" type="button" id="button-addon2">
+                                    <p class="send text-dark">SEND <i class="fa-solid fa-paper-plane fa-lg" style="color: black"></i></p>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section calss="part6 my-5 w-100">
+            <div class="container py-5">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <img src="./imges/logo.png" alt="photo-nav" class="photo-nav ms-4 mb-5 ms-5">
+                        <p class="w-75 text-center lh-lg">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad sint voluptatem odio deserunt sunt fugit omnis quia a quis. 
+                            Blanditiis magnam nisi culpa saepe assumenda repudiandae reiciendis inventore amet doloribus.
+                        </p>
+                    </div>
+                    <div class="col-lg-8 col-md-12 d-felx row text-center">
+                        <div class="col-lg-3 col-md-3">
+                            <h2 class="mb-5">About Us</h2>
+                            <ul class="list-unstyled">
+                                <li class="my-3">Vision</li>
+                                <li class="my-3">articals</li>
+                                <li class="my-3">careers</li>
+                                <li class="my-3">service terms</li>
+                                <li class="my-3">donate</li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 col-md-3">
+                            <h2 class="mb-5">Discover</h2>
+                            <ul class="list-unstyled">
+                                <li class="my-3">Home</li>
+                                <li class="my-3">Books</li>
+                                <li class="my-3">Authors</li>
+                                <li class="my-3">Subjects</li>
+                                <li class="my-3">Advanced Search</li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 col-md-3">
+                            <h2 class="mb-5">My Account</h2>
+                            <ul class="list-unstyled">
+                                <li class="my-3">Sign in</li>
+                                <li class="my-3">View Wishtist</li>
+                                <li class="my-3">Track My Order</li>
+                                <li class="my-3">View Cart</li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 col-md-3">
+                            <h2 class="mb-5">Help</h2>
+                            <ul class="list-unstyled">
+                                <li class="my-3">Help center</li>
+                                <li class="my-3">Report a problem</li>
+                                <li class="my-3">Suggesting edits</li>
+                                <li class="my-3">Conatct us</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="w-100">
+        <div class="container my-5">
+            <div class="d-flex justify-content-between row">
+                <div class="col-lg-8 col-md-10 col-12">
+                    <p>&copy; 2022 All Gights reversed . Free HTML Template by <span class="Span">TemplatesJungle</span></p>
+                </div>
+                <div class="col-lg-4 col-md-8 col-12">
+                    <i class="fa-brands fa-facebook-f fa-xl mx-3" style="color: black;"></i>
+                    <i class="fa-brands fa-twitter fa-xl mx-3" style="color: black;"></i>
+                    <i class="fa-brands fa-youtube fa-xl mx-3" style="color: black;"></i>
+                    <i class="fa-brands fa-square-behance fa-xl mx-3" style="color: black;"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
